@@ -1,0 +1,9 @@
+.content {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0.5rem solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

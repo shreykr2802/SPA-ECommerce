@@ -1,0 +1,12 @@
+.addtocart-button {
+    border: 0.3rem solid #0A9396;
+    background-color: #94D2BD;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.addtocart-name {
+    color: #001219;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

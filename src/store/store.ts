@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import ecommerceReducer from "../slices/ecommerceSlice";
+import ecommerceReducer from "./slices/ecommerceSlice";
 
 const rootReducer = combineReducers({
     ecommerce: ecommerceReducer,

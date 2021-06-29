@@ -30,10 +30,12 @@ To Start Server:
 
 # Dependencies used
 
-<a href="https://reactjs.org/">React</a> - v17.0.2
-<a href="https://redux.js.org/">Redux</a> - v4.1.0
-<a href="https://react-redux.js.org/">React-Redux</a> - v7.2.4
-<a href="https://redux.js.org/tutorials/fundamentals/part-6-async-logic">Redux-Thunk</a> - v2.3.0
-<a href="https://redux-toolkit.js.org/">@reduxjs/toolkit</a> - 1.6.0
+<ul>
+<li><a href="https://reactjs.org/">React</a> - v17.0.2</li>
+<li><a href="https://redux.js.org/">Redux</a> - v4.1.0</li>
+<li><a href="https://react-redux.js.org/">React-Redux</a> - v7.2.4</li>
+<li><a href="https://redux.js.org/tutorials/fundamentals/part-6-async-logic">Redux-Thunk</a> - v2.3.0</li>
+<li><a href="https://redux-toolkit.js.org/">@reduxjs/toolkit</a> - 1.6.0</li>
+</ul>
 
 I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in developing.

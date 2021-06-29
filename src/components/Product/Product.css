@@ -1,0 +1,61 @@
+.product-maindiv {
+    height: 20rem;
+    width: 15rem;
+    background-color: rgba(255,255,255, 0.9);
+    margin: 0.4rem;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 0.2rem
+}
+
+.product-image{
+    max-height: 5rem;
+    max-width: 5rem;
+    float: left;
+}
+
+.product-name {
+    color: #001219;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.product-price {
+    color: #9B2226;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-imagediv {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-pricmanuf {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-addtocartqty {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-qty {
+    color: #001219;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0.1rem solid #EE9B00;
+    background-color: #EE9B00;
+    width: 5rem;
+    border-radius: 0.2rem;
+}
