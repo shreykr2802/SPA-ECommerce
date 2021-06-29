@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//shreykr2802.github.io/spa-ecommerce/static/css/main.6005b1f5.chunk.css",
+    "main.js": "//shreykr2802.github.io/spa-ecommerce/static/js/main.df6af37a.chunk.js",
+    "main.js.map": "//shreykr2802.github.io/spa-ecommerce/static/js/main.df6af37a.chunk.js.map",
+    "runtime-main.js": "//shreykr2802.github.io/spa-ecommerce/static/js/runtime-main.ea4ba7d6.js",
+    "runtime-main.js.map": "//shreykr2802.github.io/spa-ecommerce/static/js/runtime-main.ea4ba7d6.js.map",
+    "static/js/2.55644234.chunk.js": "//shreykr2802.github.io/spa-ecommerce/static/js/2.55644234.chunk.js",
+    "static/js/2.55644234.chunk.js.map": "//shreykr2802.github.io/spa-ecommerce/static/js/2.55644234.chunk.js.map",
+    "static/js/3.24fea736.chunk.js": "//shreykr2802.github.io/spa-ecommerce/static/js/3.24fea736.chunk.js",
+    "static/js/3.24fea736.chunk.js.map": "//shreykr2802.github.io/spa-ecommerce/static/js/3.24fea736.chunk.js.map",
+    "index.html": "//shreykr2802.github.io/spa-ecommerce/index.html",
+    "static/css/main.6005b1f5.chunk.css.map": "//shreykr2802.github.io/spa-ecommerce/static/css/main.6005b1f5.chunk.css.map",
+    "static/js/2.55644234.chunk.js.LICENSE.txt": "//shreykr2802.github.io/spa-ecommerce/static/js/2.55644234.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea4ba7d6.js",
+    "static/js/2.55644234.chunk.js",
+    "static/css/main.6005b1f5.chunk.css",
+    "static/js/main.df6af37a.chunk.js"
+  ]
+}
