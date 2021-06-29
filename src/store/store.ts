@@ -2,10 +2,12 @@ import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import cartSlice from "./slices/cartSlice";
 import ecommerceReducer from "./slices/ecommerceSlice";
+import orderSlice from "./slices/orderSlice";
 
 const rootReducer = combineReducers({
     ecommerce: ecommerceReducer,
-    cart: cartSlice
+    cart: cartSlice,
+    order: orderSlice
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addProductToCart, updateQuantityInCart } from '../../store/slices/cartSlice';
 import { updateTotalQuantityOfProduct } from '../../store/slices/ecommerceSlice';
@@ -9,8 +9,14 @@ const AddToCart = ({ ...product }: any) => {
 
     const [buttonClicked, setButtonClicked] = useState(false);
     const [canAdd, setCanAdd] = useState(true);
+    const [addToCartDisabled, setAddToCartDisabled] = useState(false);
     const dispatch = useDispatch();
-    const cartProduct = useSelector((state: RootState) => state.cart.cartProduct).find((cartProd) => cartProd.id === product.id)
+    const cartProduct = useSelector((state: RootState) => state.cart.cartProduct).find((cartProd) => cartProd.id === product.id);
+
+    useEffect(() => {
+        if (!cartProduct) setButtonClicked(false);
+        if (product.quantity === 0) setAddToCartDisabled(true);
+    }, [cartProduct, product.quantity]);
 
     const handleAddToCart = () => {
         setButtonClicked(true);
@@ -41,7 +47,7 @@ const AddToCart = ({ ...product }: any) => {
             {
                 !buttonClicked ?
                     (
-                        <button className="addtocart-button" onClick={handleAddToCart}>
+                        <button className={addToCartDisabled ? "addtocart-button addtocart-button-disabled " : "addtocart-button"} onClick={handleAddToCart} disabled={addToCartDisabled}>
                             <span className="addtocart-name">Add to Cart</span>
                         </button>
                     )

@@ -8,12 +8,14 @@ const Content = () => {
     const products = useSelector((state: RootState) => state.ecommerce.data);
 
     return (
-        <main className="content">
-            {
-                products.map((product) => {
-                    return <Product {...product} key={product.id} />
-                })
-            }
+        <main>
+            <div className="content">
+                {
+                    products.map((product) => {
+                        return <Product {...product} key={product.id} />
+                    })
+                }
+            </div>
         </main>
     );
 }
