@@ -7,7 +7,8 @@
     flex-flow: column;
     justify-items: center;
     justify-content: space-around;
-    padding: 0.2rem
+    padding: 0.2rem;
+    border-radius: 0.4rem;
 }
 
 .product-image{
@@ -58,4 +59,10 @@
     background-color: #EE9B00;
     width: 5rem;
     border-radius: 0.2rem;
+}
+
+.product-shortdesc {
+    color: #001219;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.6rem;
 }
