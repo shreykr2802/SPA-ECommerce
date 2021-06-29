@@ -4,7 +4,7 @@ A project to create simple Single Page Application for functionality of ecommerc
 
 # Poject Link
 
-Not yet live
+You can access the webpage at <a href="http://https://shreykr2802.github.io/spa-ecommerce">SPA Ecommerce</a>
 
 # Project Status
 
@@ -39,3 +39,7 @@ To Start Server:
 </ul>
 
 I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in developing.
+
+# Other Resources used
+
+Font Awesome for Icons
